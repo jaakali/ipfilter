@@ -1,4 +1,4 @@
-module github.com/jaakali/ipfiter
+module github.com/jaakali/ipfilter
 
 go 1.15
 
