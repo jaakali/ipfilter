@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ipfilter;
+
+service IpFilter {
+    rpc Rewrite(IpReq) returns (IpRep) {}
+ }
+
+message IpReq {
+  string ip4 = 1;
+}
+message IpRep {
+    bool ret = 1;
+}
